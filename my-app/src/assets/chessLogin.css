@@ -1,0 +1,109 @@
+ 
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+   
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+  .App-flex-container {
+     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 78, 76);
+}
+
+
+
+ .chess-title-container {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: rgb(80, 78, 76);
+ }
+ .chess-title-container img {
+    width: 30px;
+    height: 40px;
+ }
+
+ .chess-title-container * {
+  margin-top: 2rem;
+ }
+
+
+.login-flex-container {
+  display: flex;
+  color: white;
+  border-radius: 10px;
+    background-color: rgb(41, 39, 39);
+    height: 55vh;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.login-flex-container * {
+  margin-top: 10px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container input {
+  background-color: rgb(80, 78, 76);
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  color: white;
+  height: 30px;
+  padding-left: 15px;
+}
+ 
+
+
+.join-container {
+  display: flex;
+  justify-content: center;
+}
+
+.join-container button {
+  border: none;
+
+  border-radius: 10px;
+  background-color: #518512;
+  height: 50px;
+  width: 120px;
+}
+.join-container a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+} 
+
+@media (max-width: 630px) {
+  .login-flex-container {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .login-flex-container {
+    width: 60vw;
+  }
+}
